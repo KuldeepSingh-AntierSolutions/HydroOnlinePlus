@@ -35,7 +35,7 @@
 			<class name="tests.ManageNodesAmountsAndRewardsTest" />
 		</classes>
 	</test> <!-- Test -->
-	<test    name="My websites page data" enabled="false">
+	<test    name="My websites page data" enabled="true">
 		<classes>
 			<class name="tests.MyWebsitesTileDataTest" />
 		</classes>
@@ -45,7 +45,7 @@
 			<class name="tests.RewardsCalculationTest" />
 		</classes>
 	</test> <!-- Test -->
-	<test    name="Sign in" enabled="true">
+	<test    name="Sign in" enabled="false">
 		<classes>
 			<class name="tests.SignInTest" />
 		</classes>

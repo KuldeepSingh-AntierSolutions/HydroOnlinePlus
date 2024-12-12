@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.RewardsCalculationTest">
+      <class name="tests.AddAndVerifyWebsiteTest">
         <methods>
+          <include name="toCreateAndAddWebsite"/>
           <include name="exitBrowser"/>
-          <include name="calculateRewards"/>
+          <include name="sendReport"/>
           <include name="launchBrowser"/>
           <include name="closeDriver"/>
-          <include name="signIn"/>
+          <include name="toVerifyWebsite"/>
         </methods>
-      </class> <!-- tests.RewardsCalculationTest -->
+      </class> <!-- tests.AddAndVerifyWebsiteTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
