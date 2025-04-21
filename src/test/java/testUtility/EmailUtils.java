@@ -9,7 +9,7 @@ import java.io.File;
 
 public class EmailUtils {
 
-    public static void sendEmailWithAttachment(String to, String subject, String body, String filepath) {
+    public static void sendEmailWithAttachment(String to,String too, String subject, String body, String filepath) {
         // Sender's email ID
         final String from = "rajavatkuldeepsingh1063@gmail.com";
         final String password = "wztxfecnxhlzaamy";
